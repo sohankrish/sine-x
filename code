@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovateHub Pitch Deck</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            padding-top: 56px; /* Accounts for fixed navbar height */
+        }
+        section {
+            padding: 5rem 0; /* Vertical padding for sections */
+        }
+        .fas {
+            color: #007bff; /* Blue color for icons */
+        }
+        .rounded-circle {
+            width: 150px;
+            height: 150px;
+            object-fit: cover; /* Ensures team images fit nicely */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Fixed Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">InnovateHub</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem">Problem</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#solution">Solution</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#audience">Audience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#market">Market</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#business">Business Model</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#competition">Competition</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cta">Call to Action</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="introduction" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Welcome to InnovateHub</h1>
+                        <p>InnovateHub is a platform that connects innovators, entrepreneurs, and investors to collaborate on groundbreaking projects.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://via.placeholder.com/500x300" alt="InnovateHub" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Statement Section -->
+        <section id="problem" class="py-5 bg-light">
+            <div class="container">
+                <h2>The Problem</h2>
+                <p>Many innovators struggle to find the right collaborators and resources to bring their ideas to life, leading to missed opportunities and stalled projects.</p>
+                <blockquote class="blockquote">"Innovation is a team sport, but finding the right team is often the hardest part." - Industry Expert</blockquote>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section id="solution" class="py-5">
+            <div class="container">
+                <h2>Our Solution</h2>
+                <p>InnovateHub provides a centralized platform where innovators can connect with like-minded individuals, share ideas, and access resources to turn their visions into reality.</p>
+                <p>With features like project collaboration tools, a marketplace for services, and a community forum, InnovateHub is the go-to place for innovation.</p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-5 bg-light">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-users fa-3x mb-3"></i>
+                        <h3>Collaboration Tools</h3>
+                        <p>Work together seamlessly with integrated project management tools.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-store fa-3x mb-3"></i>
+                        <h3>Service Marketplace</h3>
+                        <p>Find and hire experts to help with your projects.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-comments fa-3x mb-3"></i>
+                        <h3>Community Forum</h3>
+                        <p>Engage with the community, ask questions, and share knowledge.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Audience Section -->
+        <section id="audience" class="py-5">
+            <div class="container">
+                <h2>Target Audience</h2>
+                <p>InnovateHub is designed for:</p>
+                <ul>
+                    <li>Entrepreneurs looking to start new ventures</li>
+                    <li>Innovators with ideas to share</li>
+                    <li>Investors seeking promising projects</li>
+                    <li>Service providers offering expertise</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Market Opportunity Section -->
+        <section id="market" class="py-5 bg-light">
+            <div class="container">
+                <h2>Market Opportunity</h2>
+                <p>The global innovation management market is expected to reach $2.1 billion by 2025, growing at a CAGR of 12.5%.</p>
+                <p>With the rise of remote work and digital collaboration, there is a significant opportunity for platforms like InnovateHub.</p>
+            </div>
+        </section>
+
+        <!-- Business Model Section -->
+        <section id="business" class="py-5">
+            <div class="container">
+                <h2>Business Model</h2>
+                <p>InnovateHub generates revenue through:</p>
+                <ul>
+                    <li>Subscription fees for premium features</li>
+                    <li>Commission on transactions in the service marketplace</li>
+                    <li>Advertising and sponsorships</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Competitive Analysis Section -->
+        <section id="competition" class="py-5 bg-light">
+            <div class="container">
+                <h2>Competitive Analysis</h2>
+                <p>While platforms like LinkedIn and AngelList exist, InnovateHub focuses specifically on innovation and collaboration, offering tools tailored for project development.</p>
+                <p>Our unique features include integrated project management and a dedicated service marketplace.</p>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="py-5">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="https://via.placeholder.com/150" alt="Team Member 1" class="img-fluid rounded-circle mb-3">
+                        <h3>John Doe</h3>
+                        <p>CEO & Founder</p>
+                        <p>John has over 10 years of experience in tech startups and innovation management.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="https://via.placeholder.com/150" alt="Team Member 2" class="img-fluid rounded-circle mb-3">
+                        <h3>Jane Smith</h3>
+                        <p>CTO</p>
+                        <p>Jane is a seasoned software engineer with expertise in building scalable platforms.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="https://via.placeholder.com/150" alt="Team Member 3" class="img-fluid rounded-circle mb-3">
+                        <h3>Mike Johnson</h3>
+                        <p>Marketing Director</p>
+                        <p>Mike has a background in digital marketing and growth hacking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="cta" class="py-5 bg-primary text-white">
+            <div class="container">
+                <h2>Get Involved</h2>
+                <p>Join us in revolutionizing the way innovators collaborate. Whether you're an investor, a potential user, or just curious, we'd love to hear from you.</p>
+                <a href="mailto:info@innovatehub.com" class="btn btn-light btn-lg">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2023 InnovateHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Smooth Scrolling Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
